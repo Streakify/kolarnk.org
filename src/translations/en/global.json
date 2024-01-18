@@ -1,0 +1,79 @@
+{
+    "header": {
+        "title":{
+            "message":"Kolar Nirmithi Kendra"
+        },
+      "menus": {
+        "menu1": {
+          "message": "Home"
+        },
+        "menu2": {
+          "message": "About"
+        },
+        "menu3": {
+          "message": "Services",
+          "submenus": {
+            "submenu1": {
+              "message": "Training"
+            },
+            "submenu2": {
+              "message": "Production"
+            },
+            "submenu3": {
+              "message": "Construction"
+            }
+          }
+        },
+        "menu4": {
+          "message": "Projects"
+        },
+        "menu5": {
+          "message": "Other",
+          "submenus": {
+            "submenu1": {
+              "message": "Administration"
+            },
+            "submenu2": {
+              "message": "Civil"
+            },
+            "submenu3": {
+              "message": "Etc"
+            },
+            "submenu4": {
+              "message": "RTI"
+            },
+            "submenu5": {
+              "message": "Meetings"
+            }
+          }
+        },
+        "menu6": {
+          "message": "Contact"
+        }
+      },
+
+      "carousel":{
+        "title1":"Welcome to",
+        "title2":"Kolar Nirmithi Kendra",
+        "description":"The Kolar district administration established a building center named 'Kolar Nirmithi Kendra' on 31st March 1989, as a nongovernmental organization facilitated by HUDCO, under the sponsorship of the Government of India and Government of Karnataka. Its primary objective is to promote low-cost techniques within the district of Kolar. "
+
+      }
+
+    },
+    "about":{
+        "title":"About Us",
+        "description1":"Kolar is a place of great antiquity , but has passed through so many vicissitudes and was so much devastated by warfare and what little now remains in it is ancient. The history of Kolar is said to be associated with the epic age, which recalls many legend. The Nirmithi Movement: The Research and Development work in respect of Building Technology carried out by various Research bodies, engineering colleges, Individual professionals like Laurie Baker etc., has significantly contributed to the development of innovative, Cost effective, Energy Efficient Building Technology which were hither to remained in the laboratories only. A need for application of Cost Effective Technology was felt during the 80's. HUDCO took the initiative in giving further pull up to the building Centre movement for the transfer of technology from 'LAB TO LAND' by getting the financial assistance from Government of India in grounding the scheme at the National Level.",
+        "description2":"KARNIK: Was established by Government of Karnataka as a state Level Building Centre in the year 1991 with the object of giving a pull up to the building center development activities in the state. The main objective is to monitor, oversee the performance and also see that this scheme takes off on a positive note and sustain on a continuous basis Nirmithi in Karnataka :Government of Karnataka also took the initiative and started implementing the Scheme from the year 1990 onwards by establishing a Kendra in each district of Karnataka. Initially the scheme was not appreciated well and the momentum of Building Centre activities went at a snail pace rate. However, with the intervention of KARNIK as a state level nodal agency for the development of Building center activities in Karnataka the momentum start picking up from the year 1994 onwards.",
+        "description3":"Nirmithi in Karnataka :Government of Karnataka also took the initiative and started implementing the Scheme from the year 1990 onwards by establishing a Kendra in each district of Karnataka. Initially the scheme was not appreciated well and the momentum of Building Centre activities went at a snail pace rate. However, with the intervention of KARNIK as a state level nodal agency for the development of Building center activities in Karnataka the momentum start picking up from the year 1994 onwards."
+
+    },
+    "Projects":{
+        "title":"Projects We Completed",
+        "description1":"",
+        "description2":""
+    },
+    "Departments":{
+        "title":"Departments We Work With"
+    }
+  }
+  
