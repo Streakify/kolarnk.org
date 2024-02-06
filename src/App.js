@@ -14,6 +14,8 @@ import Contructions from './pages/Contructions';
 import Projects from './pages/Projects';
 import Rti from './pages/Rti';
 import Meetings from './pages/Meetings';
+import ProjectDescription from './components/ProjecrdesSection';
+import Projectdescription from './pages/projectdescription';
 import { LanguageProvider } from './components/LanguageContext';
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
    <Routes>
     <Route  path='/' element={<Home/>} />
     <Route  path='/about' element={<About/>} />
+
     <Route  path='/services' element={<Services/>} />
     <Route  path='/departments' element={<Departments/>} />
     <Route  path='/contact' element={<Contact/>} />
@@ -36,6 +39,7 @@ function App() {
     <Route path='/departments' element={<Departments/>}/>
     <Route path='/meetings' element={<Meetings/>}/>
     <Route  path='*' element={<PageNotFound/>} />
+    <Route  path='/Projectdescription' element={<Projectdescription/>} />
    </Routes>
    
    </BrowserRouter>

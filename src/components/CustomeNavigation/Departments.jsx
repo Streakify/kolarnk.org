@@ -1,23 +1,56 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import axios from 'axios';
 
 const DepartmentsSection = () => {
   const [t, i18n] = useTranslation("global");
+  const [departments, setDepartments] = useState([]);
 
-  const departments = [
-    { name: 'Engineering', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { name: 'Marketing', description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.' },
-    { name: 'Human Resources', description: 'Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.' },
-    { name: 'Finance', description: 'Nulla quis lorem ut libero malesuada feugiat.' },
-    { name: 'IT', description: 'Curabitur aliquet quam id dui posuere blandit.' },
-    { name: 'Operations', description: 'Donec sollicitudin molestie malesuada.' },
-  ];
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('http://localhost:3000/projects/Department');
+        const responseData = response.data;
+        if (responseData && Array.isArray(responseData.projectTrainings)) {
+          setDepartments(responseData.projectTrainings); // Corrected to set departments
+        } else {
+          console.error('Departments array not found in response:', responseData);
+        }
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+  
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    const fetchOtherData = async () => {
+      try {
+        const response = await axios.get('https://kolarnk.up.railway.app/api/department');
+        const responseData = response.data;
+        console.log('Response data:', responseData);
+        // Check if the response has the 'departments' array
+        if (Array.isArray(responseData.departments)) {
+          setDepartments(responseData.departments);
+        } else {
+          console.error('Departments array not found in response:', responseData);
+        }
+      } catch (error) {
+        console.error('Error fetching other data:', error);
+      }
+    };
+  
+    fetchOtherData();
+  }, []);
+  // Log departments to check its value
+  console.log('Departments:', departments);
 
   return (
     <section id="departments" className="departments">
       <div className="container" data-aos="fade-up">
         <div className="section-header">
-          <h2>{t("Projects.title")}</h2>
+          <h2>{t("department.title")}</h2>
         </div>
         <div className="row">
           {departments.map((department, index) => (

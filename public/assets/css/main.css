@@ -16,6 +16,79 @@
   --font-secondary: "Work Sans", sans-serif;
 }
 
+
+/* sidebar  */
+
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: -250px; 
+  width: 200px;
+  /* height: 55%; */
+  max-height: 100%;
+  background-color: #333; 
+  color: #fff;
+  transition: right 0.3s ease; 
+  z-index: 1000; 
+}
+
+.sidebar.open {
+  right: 0; /* Slide in from the right when open */
+}
+
+
+.handle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 10px;
+  cursor: grab;
+  z-index: 1001; /* Ensure it's on top of the sidebar */
+}
+
+.handle-icon {
+  display: block;
+  height: 40px;
+  width: 10px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 2px;
+  border-radius: 4px;
+}
+
+/* Added styling for the sidebar content to display in a row */
+.sidebar-content {
+  display: flex;
+  flex-direction: row;
+  padding: 10px; 
+  font-size: 20px;
+  color: #fff;
+
+
+  
+}
+
+.sidebar-content a {
+  margin-right: 10px; /* Adjust spacing between links as needed */
+  color: #fff;
+
+}
+
+
+
+
+.sidebar-heading {
+  font-size: 24px; /* Adjust font size as needed */
+  color: white; /* Adjust color as needed */
+margin-top: 10px;
+margin-left: 30px;
+}
+/* sidebar  */
+
 /* Colors */
 :root {
   --color-default: #364d59;
@@ -1012,6 +1085,9 @@ section {
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
+
+
+
 .testimonials .testimonial-wrap {
   padding-left: 50px;
 }
@@ -1285,12 +1361,57 @@ section {
   background-position: center;
 }
 
+
+/* DESCRIPTION SECTION */
+.description .descr-img {
+  min-height: 200px;
+  width: 400px;
+  /* border-radius: 50px; */
+  background-size: cover;
+  background-position: center;
+  margin-top: -10px;
+  margin: 10px 0; /* Add margin for spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect on hover */
+}
+
+/* Add hover effect */
+.description .descr-img:hover {
+  transform: scale(1.1); /* Increase size on hover */
+}
+.description .descr-des{
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  margin-top: -10px;
+  margin: 10px 0; /* Add margin for spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect on hover */
+  margin-left: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+ background-color: lightgrey;
+
+}
+.descr.para {
+  padding: 10px;
+ 
+}
+
+
+
+
+
+
+
+
 @media (min-width: 992px) {
   .about .about-img {
     position: absolute;
     top: 0;
     right: 0;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -1880,6 +2001,7 @@ section {
   min-height: 100vh;
   padding: 80px 0;
   margin: 0;
+  /* margin-top: 50px; */
   position: relative;
 }
 
@@ -1892,6 +2014,22 @@ section {
   overflow: hidden;
   z-index: 1;
   transition-duration: 0.4s;
+}
+.container{
+  margin-top: 50px;
+  margin-bottom: -50px;
+  /* align-items: center; */
+  /* align-self: center; */
+
+}
+.footercontainer{
+  margin-top: -50px;
+  /* margin-bottom: -50px; */
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin-left: 30px;
+
 }
 
 .hero .carousel-item::before {
@@ -2700,4 +2838,22 @@ section {
 
 .footer .footer-legal .credits a {
   color: var(--color-primary);
+}
+
+.language-button {
+  /* background-color: transparent; */
+  color: #000;
+  border: 0.9px solid #000;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: transparent;
+}
+.language-button:hover {
+  background-color: #f0f0f0; /* Add a subtle hover effect */
 }

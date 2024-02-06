@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
-const TableSection = () => {
-  // Sample data for the table
-  const tableData = [
-    { id: 1, subject: 'Construction', fileUrl: 'https://example.com/file1.pdf' },
-    { id: 2, subject: 'ABout Kolar', fileUrl: 'https://example.com/file2.pdf' },
-    { id: 3, subject: 'About Nirmithi', fileUrl: 'https://example.com/file3.pdf' },
-    // Add more data as needed
-    // ...
-  ];
+const TableSection = ( {data}) => {
+
+  console.log(data);
+  const [tableData, setTableData] = useState([]);
+
+ 
+
+
+
+ 
 
   return (
     <section id="constructions" className="constructions">
@@ -20,22 +22,25 @@ const TableSection = () => {
               <thead>
                 <tr>
                   <th>S.No</th>
-                  <th>Subject</th>
-                  <th>File</th>
+                  <th>Name</th>
+                  <th>Description</th>
+                  <th>Link</th>
                 </tr>
               </thead>
               <tbody>
-                {tableData.map((item, index) => (
-                  <tr key={item.id}>
+                {data.map((item, index,) => (
+                  <tr key={item._id}>
                     <td>{index + 1}</td>
-                    <td>{item.subject}</td>
+                    <td>{item.name}</td>
+                    <td>{item.description}</td>
                     <td>
                       <a
-                        href={item.fileUrl}
-                        download={`File_${item.id}.pdf`}
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="btn btn-primary btn-sm"
                       >
-                        Download
+                        View
                       </a>
                     </td>
                   </tr>

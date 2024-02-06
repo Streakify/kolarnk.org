@@ -8,18 +8,18 @@ const Footer = () => {
   return (
     <footer id="footer" className="footer linkStyle">
       <div className="footer-content position-relative">
-        <div className="container">
+        <div className="footercontainer">
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="footer-info">
                 <h3>{t("header.title.message")}</h3>
                 <p>
-                  Kolar, Karnataka
+                  {t("footer.address.message")}
                   <br />
                   <br />
                   <br />
-                  <strong>Phone:</strong> +000000000<br />
-                  <strong>Email:</strong> info@kolarnk.org<br />
+                  <strong>  {t("footer.phone.message")}</strong> {t("footer.phonenumber.message")}<br />
+                  <strong> {t("footer.email.message")}</strong> {t("footer.emailid.message")}<br />
                 </p>
                 <div className="social-links d-flex mt-3">
                   <a href="#" className="d-flex align-items-center justify-content-center">
@@ -39,26 +39,28 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Useful Links</h4>
+            <h4>{t("footer.title.message")}<span>.</span></h4>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Terms of service</a></li>
-                <li><a href="#">Privacy policy</a></li>
+              <li><a href="#" >{t("footer.menus.menu1.message")}</a></li>
+              <li><a href="#" >{t("footer.menus.menu2.message")}</a></li>
+              <li><a href="#" >{t("footer.menus.menu3.message")}</a></li>
+              <li><a href="#" >{t("footer.menus.menu4.message")}</a></li>
+              <li><a href="#" >{t("footer.menus.menu5.message")}</a></li>
+              <li><a href="#" >{t("footer.menus.menu6.message")}</a></li>
+              <li><a href="#" >{t("footer.menus.menu7.message")}</a></li>
               </ul>
             </div>
 
             <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Our Services</h4>
+            <h4>{t("footer.title1.message")}<span>.</span></h4>
               <ul>
-                <li><a href="#">Training</a></li>
-                <li><a href="#">Construction</a></li>
-                <li><a href="#">Development</a></li>
+              <li><a href="#" >{t("footer.menus1.menu1.message")}</a></li>
+              <li><a href="#" >{t("footer.menus1.menu2.message")}</a></li>
+              <li><a href="#" >{t("footer.menus1.menu3.message")}</a></li>
               </ul>
             </div>
 
-            <div className="col-lg-2 col-md-3 footer-links">
+            {/* <div className="col-lg-2 col-md-3 footer-links">
               <h4>Departments</h4>
               <ul>
                 <li><a href="#">Civil Engineering</a></li>
@@ -67,7 +69,7 @@ const Footer = () => {
                 <li><a href="#">Finance</a></li>
                 <li><a href="#">Architect</a></li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -75,10 +77,11 @@ const Footer = () => {
       <div className="footer-legal text-center position-relative">
         <div className="container">
           <div className="copyright">
-            &copy; Copyright <strong><span>Kolar Nirmithi Kendra</span></strong>. All Rights Reserved
+
+            &copy; {t("footer.copyright.message")} <strong><span>{t("footer.copyright1.message")}</span></strong>{t("footer.copyright2.message")}
           </div>
           <div className="credits">
-            Designed by <a href="https://bootstrapmade.com/">Kolar Nirmithi Kendra</a>
+          {t("footer.copyright3.message")} <a href="https://bootstrapmade.com/"> {t("footer.copyright4.message")}</a>
           </div>
         </div>
       </div>

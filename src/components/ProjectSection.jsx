@@ -1,33 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; 
+import axios from 'axios'; // Import Axios
 
 const ProjectsSection = () => {
   const [filter, setFilter] = useState('*');
+  const [projects, setProjects] = useState([]);
 
-  const projects = [
-    {
-      title: 'Remodeling 1',
-      category: 'filter-remodeling',
-      imageUrl: 'assets/img/projects/remodeling-1.jpg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    },
-    {
-      title: 'Construction 1',
-      category: 'filter-construction',
-      imageUrl: 'assets/img/projects/construction-1.jpg',
-      description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    },
-    {
-      title: 'Remodeling 2',
-      category: 'filter-remodeling',
-      imageUrl: 'assets/img/projects/remodeling-2.jpg',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    },
-    // Add more projects similarly
-  ];
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('https://kolarnk.up.railway.app/projects/Project');
+        const responseData = response.data;
+        if (responseData && Array.isArray(responseData.projectTrainings)) {
+          setProjects(responseData.projectTrainings); // Corrected to set departments
+        } else {
+          console.error('Projects array not found in response:', responseData);
+        }
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+  
+    fetchData();
+  }, []);
+
+  console.log('Projects:', projects);
 
   const handleFilterClick = (newFilter) => {
     setFilter(newFilter);
   };
+
+
+
 
   return (
     <section id="projects" className="projects">
@@ -38,27 +42,8 @@ const ProjectsSection = () => {
           data-portfolio-layout="masonry"
           data-portfolio-sort="original-order"
         >
-          <ul className="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
-            <li
-              onClick={() => handleFilterClick('*')}
-              style={{ borderBottom: filter === '*' && '2px solid #3498db' }}
-            >
-              All
-            </li>
-            <li
-              onClick={() => handleFilterClick('.filter-remodeling')}
-              style={{ borderBottom: filter === '.filter-remodeling' && '2px solid #3498db' }}
-            >
-              Progress
-            </li>
-            <li
-              onClick={() => handleFilterClick('.filter-construction')}
-              style={{ borderBottom: filter === '.filter-construction' && '2px solid #3498db' }}
-            >
-              Completed
-            </li>
-          </ul>
-
+          {/* ... (existing code) */}
+          
           <div className="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
             {projects.map((project, index) => (
               <div
@@ -66,18 +51,20 @@ const ProjectsSection = () => {
                 className={`col-lg-4 col-md-6 portfolio-item ${project.category}`}
                 style={{ position: 'relative', overflow: 'hidden' }}
               >
-                <div className="portfolio-content h-100" style={{ borderRadius: '10px', overflow: 'hidden' }}>
-                  <img
-                    src={project.imageUrl}
-                    className="img-fluid"
-                    alt={project.title}
-                    style={{ width: '100%', height: 'auto', borderRadius: '10px' }}
-                  />
-                  <div className="portfolio-info" style={{ position: 'absolute', bottom: '0', width: '100%' }}>
-                    <h4 style={{ margin: '10px 0', color: '#fff' }}>{project.title}</h4>
-                    <p style={{ color: '#fff' }}>{project.description}</p>
-                  </div>
-                </div>
+<Link to={`/Projectdescription/`} style={{ textDecoration: 'none' }}>
+<div style={{ borderRadius: '10px', overflow: 'hidden', position: 'relative', margin: '-50px 0' }}>
+  <img
+    src={project.image}
+    className="img-fluid"
+    alt={project.title}
+    style={{ width: '100%', height: '250px', borderRadius: '10px', borderEndEndRadius: '0px', borderEndStartRadius: '0px' }}
+  />
+  <div style={{ position: 'relative', margin: '0px 0', width: '100%', background: 'rgba(9,9,100,0.7)', padding: '50px' }}>
+    <h4 style={{ margin: '9px 0', alignSelf:'flex-start', marginLeft:'-40px', color: '#000000', marginTop: '-40px', background: '#FFFFF0', borderRadius: '10px', padding: '2px', width: '165px', alignSelf: 'center', textDecoration: 'none' }}>{project.title}</h4>
+    <p style={{ color: '#FFFFF0', margin: '-1px 0', textDecoration: 'none',marginLeft:'-40px',marginBottom:'15px' }}>{project.description}</p>
+  </div>
+</div>
+</Link>
               </div>
             ))}
           </div>

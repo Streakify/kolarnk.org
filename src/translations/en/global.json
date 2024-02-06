@@ -57,23 +57,260 @@
         "title2":"Kolar Nirmithi Kendra",
         "description":"The Kolar district administration established a building center named 'Kolar Nirmithi Kendra' on 31st March 1989, as a nongovernmental organization facilitated by HUDCO, under the sponsorship of the Government of India and Government of Karnataka. Its primary objective is to promote low-cost techniques within the district of Kolar. "
 
-      }
+      },
+      "Lang": {
+        "message": "Languages"
+    }
 
     },
     "about":{
         "title":"About Us",
         "description1":"Kolar is a place of great antiquity , but has passed through so many vicissitudes and was so much devastated by warfare and what little now remains in it is ancient. The history of Kolar is said to be associated with the epic age, which recalls many legend. The Nirmithi Movement: The Research and Development work in respect of Building Technology carried out by various Research bodies, engineering colleges, Individual professionals like Laurie Baker etc., has significantly contributed to the development of innovative, Cost effective, Energy Efficient Building Technology which were hither to remained in the laboratories only. A need for application of Cost Effective Technology was felt during the 80's. HUDCO took the initiative in giving further pull up to the building Centre movement for the transfer of technology from 'LAB TO LAND' by getting the financial assistance from Government of India in grounding the scheme at the National Level.",
         "description2":"KARNIK: Was established by Government of Karnataka as a state Level Building Centre in the year 1991 with the object of giving a pull up to the building center development activities in the state. The main objective is to monitor, oversee the performance and also see that this scheme takes off on a positive note and sustain on a continuous basis Nirmithi in Karnataka :Government of Karnataka also took the initiative and started implementing the Scheme from the year 1990 onwards by establishing a Kendra in each district of Karnataka. Initially the scheme was not appreciated well and the momentum of Building Centre activities went at a snail pace rate. However, with the intervention of KARNIK as a state level nodal agency for the development of Building center activities in Karnataka the momentum start picking up from the year 1994 onwards.",
-        "description3":"Nirmithi in Karnataka :Government of Karnataka also took the initiative and started implementing the Scheme from the year 1990 onwards by establishing a Kendra in each district of Karnataka. Initially the scheme was not appreciated well and the momentum of Building Centre activities went at a snail pace rate. However, with the intervention of KARNIK as a state level nodal agency for the development of Building center activities in Karnataka the momentum start picking up from the year 1994 onwards."
+        "description3":"Nirmithi in Karnataka :Government of Karnataka also took the initiative and started implementing the Scheme from the year 1990 onwards by establishing a Kendra in each district of Karnataka. Initially the scheme was not appreciated well and the momentum of Building Centre activities went at a snail pace rate. However, with the intervention of KARNIK as a state level nodal agency for the development of Building center activities in Karnataka the momentum start picking up from the year 1994 onwards.",
+"header":"Kolar Nirmithi Kendra",
+"year":"Est 1988",
+"storyhead":"Our Story",
+"storypara":"Kolar is a place of great antiquity, but has passed through so many vicissitudes and was so much devastated by warfare and what little now remains in it is ancient. The history of Kolar is said to be associated with the epic age, which recalls many legends.",
+"video":"Watch Video",
+"header1":"Nirmithi in Karnataka",
+"para2":"Nirmithi in Karnataka: Government of Karnataka also took the initiative and started implementing the Scheme from the year 1990 onwards by establishing a Kendra in each district of Karnataka. Initially, the scheme was not appreciated well, and the momentum of Building Centre activities went at a snail pace rate. However, with the intervention of KARNIK as a state-level nodal agency for the development of Building center activities in Karnataka, the momentum started picking up from the year 1994 onwards.",
+"subhead":"KARNIK",
+"subpara":"Was established by the Government of Karnataka as a state-level Building Centre in the year 1991 with the object of giving a pull up to the building center development activities in the state. The main objective is to monitor, oversee the performance and also see that this scheme takes off on a positive note and sustains on a continuous basis.",
+"subhead2":"The Nirmithi Movement",
+"subpara2":"The Research and Development work in respect of Building Technology carried out by various Research bodies, engineering colleges, Individual professionals like Laurie Baker etc., has significantly contributed to the development of innovative, Cost-effective, Energy-Efficient  Building Technology which were hitherto remained in the laboratories only. A need for the application of Cost-Effective Technology was felt during the 80's. HUDCO took the initiative in giving further pull up to the building Centre movement for the transfer of technology from *LAB TO LAND* by getting the financial assistance from the Government of India in grounding the scheme at the National Level.",
+"teamhead":"Governing Body",
+"teampara":"Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop",
+"teamname":"Manuella Nevoresky",
+"teamdesig":"CEO - Founder"
+   },
 
-    },
     "Projects":{
-        "title":"Projects We Completed",
-        "description1":"",
-        "description2":""
+        "title":"Projects",
+        "name":"",
+        "description":""
     },
-    "Departments":{
-        "title":"Departments We Work With"
-    }
+    "department":{
+      "title":"Departments",
+      "name":"",
+      "description":""
+    },
+    
+
+   "footer": {
+    "address":{
+     "message":"Kolar, Karnataka"
+    },
+   "phone":{
+    "message":"Phone:"
+   },
+   "phonenumber":{
+    "message":"+91 98734364843:"
+   },
+   "email":{
+    "message":"Email Id:"
+   },
+   "emailid":{
+    "message":"info@kolarnk.org"
+   },
+    "title":{
+        "message":"Useful Links"
+    },
+    "menus": {
+      "menu1": {
+        "message": "Home"
+      },
+      "menu2": {
+        "message": "About Us"
+      },
+      "menu3":{
+        "message":"Projects"
+      },
+      "menu4":{
+        "message":"Administration"
+      },
+      "menu5":{
+        "message":"RTI"
+            },
+            "menu6":{
+              "message":"Meetings"
+            },
+            "menu7":{
+              "message":"Contacts"
+            }
+  },
+  "title1":{
+    "message":"Our Services"
+},
+"menus1": {
+  "menu1": {
+    "message": "Training"
+  },
+  "menu2": {
+    "message": "Construction"
+  },
+  "menu3":{
+    "message":"Development"
   }
+ 
+},
+"copyright":{
+  "message":"Copyright"
+},
+"copyright1":{
+  "message":"Kolar Nirmithi Kendra."
+},
+"copyright2":{
+  "message":"All Rights Reserved"
+},
+"copyright3":{
+  "message":"Designed by "
+
+},
+"copyright4":{
+  "message":"Kolar Nirmithi Kendra"
+},
+"header2": {
+
+  "title1":{
+    "message":"Home"
+}
+
+
+}
+},
+
+"Construction":{
+
+    "Heading":"Construction",
+
+   "SubHeading" :"1. GENERAL:",
+  "subHeadingpara":"In these days of increasing cost of construction, the dream of owning a house, particularly for low-income and middle-income families, is becoming a difficult reality. Hence, it has become a necessity to adopt cost-effective, innovative, and environmentally friendly housing technology for the construction of houses and buildings for enabling the common people to construct houses at an affordable cost.",
+
+    "SubHeading1":"2. LOW COST HOUSING:",
+    "subHeadingpara1":"Cost-Effective Housing is a relative concept and has more to do with budgeting and it seeks to reduce the cost of construction through better management, appropriate use of local materials, skills, and technology but without sacrificing the performance and life of the structure. It needs to be emphasized that low-cost housing does not mean houses constructed by utilizing cheap building materials of substandard quality. A low-cost house is designed and constructed like any other house with regard to foundation, structure, strength, etc. The reduction in cost is achieved through the effective utilization of locally available building materials and techniques that are durable, economical, accepted by users, and not requiring costly maintenance. Economy is also achieved by postponing finishing and/or implementing them in phases. Further, it aims at increasing the efficiency of workers, minimizing wastage in design and space, and applying good management practices so that shelter can be provided at prices which people can afford.",
+ 
+    "SubHeading2":"3. BUILDING COST:",
+    "subHeadingpara2":"The building construction cost can be divided into two parts namely:",
+"subHeadingpara2num1":"1.",
+"subHeadingpara2num1subpara1":"Building Material cost: 65 to 70%",
+"subHeadingpara2num2":"2.",
+"subHeadingpara2num2subpara2":"Labour cost: 30 to 35%",
+"subHeadingpara2subpara3":"The scope for effective means of reducing the cost of construction lies with minimizing the quantity of building materials which consume less energy. This is possible if one could follow a rational design procedure for the efficient use of materials. Cost reduction is achieved by the selection of more efficient material or by an improved design.",
+
+"SubHeading3":"4. AVENUES FOR REDUCING COST OF CONSTRUCTION - CONCEPT",
+"subHeadingpara3":"The following are the avenues exist for reducing building construction cost",
+"subHeadingpara3num1":"1.",
+"subHeadingpara3subpara1":"Reduce plinth area by using thinner wall concept. Ex. 15 cms thick solid concrete block wall.",
+
+"subHeadingpara3num2":"2.",
+"subHeadingpara3subpara2":"Use locally available material in an innovative form like soil cement blocks in place of burnt brick.",
+
+"subHeadingpara3num3":"3.",
+"subHeadingpara3subpara3":"Use energy efficiency materials which consumes less energy like concrete block in place of burnt brick.",
+
+"subHeadingpara3num4":"4.",
+"subHeadingpara3subpara4":"Use environmentally friendly materials which are substitute for conventional building components like use R.C.C. Door and window frames in place of wooden frames.",
+
+"subHeadingpara3num5":"5.",
+"subHeadingpara3subpara5":"Preplan every component of a house and rationalize the design procedure for reducing the size of the component in the building.",
+
+"subHeadingpara3num6":"6.",
+"subHeadingpara3subpara6":"By planning each and every component of the house the wastage of materials due to demolition of the unplanned component of the house can be avoided.",
+
+"subHeadingpara3num7":"7.",
+"subHeadingpara3subpara7":"Each component of the house shall be checked whether if it is necessary, if it is not necessary, then that component should not be used.",
+
+"subHeadingpara3num8":"8.",
+"subHeadingpara3subpara8":"Cost reduction is possible by eliminating redundant components. Ex : Avoid plastering the walls, eliminating the use of plinth slabs in foundation.",
+
+"subHeadingpara3num9":"9.",
+"subHeadingpara3subpara9":"Accept lower quality finishes like exposed brick work without plastering.",
+
+"subHeadingpara3num10":"10.",
+"subHeadingpara3subpara10":"Reducing standards - providing jelly work in place of windows, no plinth concrete ",
+
+"sub4b":"II -",
+"sub4bhead":"COST REDUCTION THROUGH ADHOC METHODS :",
+"sub4b1a":"1(a)",
+"sub4b1apara":" Foundation - Normally the foundation cost comes to about 10 to 15% of the total building and usually foundation depth of 3 to 4 ft. is adopted for single or double store building and also the concrete bed of 6'' (15 cms) is used for the foundation which could be avoided.",
+"sub4b1apara1":"It is recommended to adopt a foundation depth of 2 ft. (0.6 m) for normal soil like gravely soil, red soils etc., and use the uncoursed rubble masonry with the bond stones and good packing. Similarly the foundation width is rationalized to 2 ft. (0.6 m). To avoid cracks formation in foundation the masonry shall be thoroughly packed with cement mortar of 1:8, boulders and bond stones at regular intervals.",
+"sub4b1b":"1(b)",
+"sub4b1bpara1":"It is further suggested to adopt arch foundation in ordinary soil for effecting reduction in construction cost upto 40% . This kind of foundation will help in bridging the loose pockets of soil which occurs along the foundation. ",
+"sub4b1c":"1(c)",
+"sub4b1cpara1":"In the case black cotton and other soft soils it is recommend to use under ream pile foundation which saves about 20 to 25% in cost over the conventional method of construction.",
+"sub4b1d":"1(d)",
+"sub4b1dpara1":"Plinth : It is suggested to adopt 1 ft. height above ground level for the plinth and may be constructed with a cement mortar of 1:6.",
+"sub4b1dpara2":"The plinth slab of 4 to 6'' which is normally adopted can be avoided and in its place brick on edge can be used for reducing the cost. By adopting this procedure the cost of plinth foundation can be reduced by about 35 to 50%. It is necessary to take precaution of providing impervious blanket like concrete slabs or stone slabs all round the building for enabling to reduce erosion of soil and thereby avoiding exposure of foundation surface and crack formation.",
+
+
+"Sub1":"1. Walling :",
+"Sub1para":"Wall thickness of 6 to 9'' is recommended for adoption in the construction of walls all round the building and 4 1/2'' for inside walls. It is suggested to use burnt bricks which are immersed in water for 24 hours and then shall be used for the walls",
+"Sub1a":"Rat - Trap bond Wall :",
+"Sub1apara":"It is a cavity wall construction with added advantage of thermal comfort and reduction in the quantity of bricks required for masonry work. By adopting this method of bonding of brick masonry compared to traditional English or Flemish bond masonry, it is possible to reduce in the material cost of bricks by 25% and about 10 to 15% in the masonry cost. By adopting rat - trap bond method one can create aesthetically pleasing wall surface and plastering can be avoided.",
+"Sub1apara1":"Concrete block walling : In view of high energy consumption by burnt brick it is suggested to use concrete block (both hollow and solid) which consumes about only 1/3 of the energy of the burnt bricks in its production. By using concrete block masonry the wall thickness can be reduced from 20 cms to 15 cms. Concrete block masonry saves mortar consumption, speedy construction of wall resulting in higher output of labour, plastering can be avoided thereby an overall saving of 10 to 25% can be achieved. ",
+"Sub1apara2":"Soil cement block technology : it is an alternative method of construction of walls using soil cement blocks in place of burnt bricks masonry. It is an energy efficient method of construction where soil mixed with 5% and above cement and pressed in hand operated machine and cured well and then used in the masonry. This masonry doesn't require plastering on both sides of the wall. The overall economy that could be achieved with the soil cement technology is about 15 to 20% compared to conventional method of construction",
+
+
+"Sub2":"2. Doors and windows :",
+"Sub2para":"It is suggested not to use wood for doors and windows and in its place concrete or steel section frames shall be used for achieving saving in cost upto 30 to 40%. Similarly for shutters commercially available block boards, fibre or wooden partical boards etc., shall be used for reducing the cost by about 25%. By adopting brick jelly work and precast components effective ventilation could be provided to the building and also the construction cost could be saved upto 50% over other window components.",
+
+"Sub3":"3. Lintals & Chajjas :",
+"Sub3para":"The traditional R.C.C lintels which are costly can be replaced by brick arches for small spans and save construction cost upto 30 to 40% over the traditional method of construction. By adopting arches of different shapes a good architectural pleasing appearance can be given to the external wall surfaces of the brick masonry",
+
+"Sub4":"4. Roofing :",
+"Sub4para":"Normally 5''( 12.5 cms) thick R.C.C slabs is used for roofing of residential buildings. By adopting rationally designed insitu construction practices like filler slab and precast roofing system like jack arch panels, ferro cement channels and other precast elements the construction cost of roofing can be reduced by about 20 to 25%",
+
+"Sub4a":"4a. Filler Slabs :",
+"Sub4apara":"are normal RCC slabs where bottom half (tension) concrete portions are replaced by filler materials such as bricks, tiles, cellular concrete blocks, etc., These filler materials are so placed as not to compromise structural strength, result in replacing unwanted and nonfunctional tension concrete, thus resulting in economy. These are safe, sound and provide aesthetically pleasing pattern ceilings and also need no plaster. 4b. Jack Arch Roof/Floor: are easy to construct, save on cement and steel, are more appropriate in hot climates. These can be constructed using compressed earth blocks also as alternative to bricks for further economy. 4c. Ferrocement channel/shell Unit : Provide an economic solution to RCC slab by providing 30 to 40% cost reduction on floor/roof unit over RCC slabs without compromising the strength. These being precast, It construction is speedy, economical due to avoidance of shuttering and facilitate quality control. 5. Flooring Work : The conventional mosaic or caddapha/shabad stone flooring over cement concrete bed is recommended for adoption in the cost effective buildings.",
+
+"Sub5":"5 Finishing Work :",
+"Sub5para":" The cost of finishing items like sanitary, electricity, painting etc., varies depending upon the type and the quality of products used in the building and its cost reduction is left to the individual choice and liking.",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"ConclusionHead":"CONCLUSION :",
+"Conclusionpara":"The above list of suggestion for reducing construction cost is of general nature and it varies depending upon the nature of the building to be constructed, budget of the owner, geographical location where the house is to be constructed, availability of the building material, good construction management practices etc. However it is necessary that good planning and design methods shall be adopted by utilizing the services of an experienced engineer or an architect for supervising the work, thereby achieving overall cost effectiveness to the extent of 10 to 15% in actual practice."
+
+
+
+
+  
+}
+
+
+
+
+
+}
+
+  
   
