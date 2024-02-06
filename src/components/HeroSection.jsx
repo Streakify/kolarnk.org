@@ -42,7 +42,7 @@ const HeroSection = () => {
 
   <AboutCard/>
 
-  <ProjectsCard/>
+  {/* <ProjectsCard/> */}
 
 
     

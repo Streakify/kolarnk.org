@@ -9,7 +9,7 @@ const DepartmentsSection = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/projects/Department');
+        const response = await axios.get('https://kolarnk.up.railway.app/projects/Department');
         const responseData = response.data;
         if (responseData && Array.isArray(responseData.projectTrainings)) {
           setDepartments(responseData.projectTrainings); // Corrected to set departments
@@ -24,25 +24,7 @@ const DepartmentsSection = () => {
     fetchData();
   }, []);
 
-  useEffect(() => {
-    const fetchOtherData = async () => {
-      try {
-        const response = await axios.get('https://kolarnk.up.railway.app/api/department');
-        const responseData = response.data;
-        console.log('Response data:', responseData);
-        // Check if the response has the 'departments' array
-        if (Array.isArray(responseData.departments)) {
-          setDepartments(responseData.departments);
-        } else {
-          console.error('Departments array not found in response:', responseData);
-        }
-      } catch (error) {
-        console.error('Error fetching other data:', error);
-      }
-    };
-  
-    fetchOtherData();
-  }, []);
+ 
   // Log departments to check its value
   console.log('Departments:', departments);
 

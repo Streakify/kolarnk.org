@@ -32,7 +32,7 @@ const AboutSection = () => {
 
   return (
     <>
-      <section id="about" className="about">
+      <section id="about" className="about mt-4 mb-4">
         <div className="container" data-aos="fade-up">
           <div className="row position-relative">
             <div className="col-lg-7 about-img" style={sectionStyle}></div>
@@ -44,9 +44,7 @@ const AboutSection = () => {
                 <p>{t("about.storypara")}
                 </p>
                 <div className="watch-video d-flex align-items-center position-relative">
-                  <i className="bi bi-play-circle"></i>
-                  <a href="https://www.youtube.com/watch?v=Uw1Z3w-kyWA" className="glightbox stretched-link">{t("about.video")}</a>
-                </div>
+                   </div>
               </div>
             </div>
           </div>
